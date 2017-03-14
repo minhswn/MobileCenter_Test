@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MobileCenter_Test" x:Class="MobileCenter_Test.MobileCenter_TestPage">
+<StackLayout VerticalOptions="Center">
+<Button BorderRadius="1" Text="Present Modal" Clicked="Handle_Clicked"/>
+<Button BorderRadius="1" Text="Alert Click" Clicked="Alert_Clicked"/>
+		<Button BorderRadius="1" Text="Crash the app" Clicked="Crash_Clicked"/>
+	</StackLayout>
+</ContentPage>
